@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import { Document, Page } from 'react-pdf/dist/esm/entry.webpack5';
-import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
-
+// import { Document, Page, pdfjs } from 'react-pdf/dist/esm/entry.webpack5';
+import { Document, Page, pdfjs } from 'react-pdf';
 import './Resume.css';
-
+// import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 
 const Resume = () => {
@@ -18,10 +18,6 @@ const Resume = () => {
   return (
     <div className="Example">
       <div className="Example__container">
-        {/* <div className="Example__container__load">
-          <label htmlFor="file">Load from file:</label>{' '}
-          <input onChange={onFileChange} type="file" />
-        </div> */}
         <div className="Example__container__document">
           <Document file="Siba Prasad Choudhury Resume 2022.pdf"
             onLoadSuccess={onDocumentLoadSuccess}>

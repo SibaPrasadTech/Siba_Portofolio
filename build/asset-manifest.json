@@ -1,15 +1,14 @@
 {
   "files": {
-    "main.css": "/Siba_Portofolio/static/css/main.ed9cf058.css",
-    "main.js": "/Siba_Portofolio/static/js/main.fce7b648.js",
-    "static/media/pdf.worker.js": "/Siba_Portofolio/static/media/pdf.worker.5a4781656f64092ca08b.js",
+    "main.css": "/Siba_Portofolio/static/css/main.46fb8b53.css",
+    "main.js": "/Siba_Portofolio/static/js/main.8bd853d7.js",
     "static/media/profile_photo.jpg": "/Siba_Portofolio/static/media/profile_photo.7d1692304a73f327bf27.jpg",
     "index.html": "/Siba_Portofolio/index.html",
-    "main.ed9cf058.css.map": "/Siba_Portofolio/static/css/main.ed9cf058.css.map",
-    "main.fce7b648.js.map": "/Siba_Portofolio/static/js/main.fce7b648.js.map"
+    "main.46fb8b53.css.map": "/Siba_Portofolio/static/css/main.46fb8b53.css.map",
+    "main.8bd853d7.js.map": "/Siba_Portofolio/static/js/main.8bd853d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed9cf058.css",
-    "static/js/main.fce7b648.js"
+    "static/css/main.46fb8b53.css",
+    "static/js/main.8bd853d7.js"
   ]
 }
