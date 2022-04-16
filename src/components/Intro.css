@@ -1,0 +1,129 @@
+body {
+  /* background-color: blue; */
+  background-image: 
+    linear-gradient(to right, beige, rgb(130, 190, 190), rgb(64, 64, 120));
+}
+
+.intro{
+  display: flex;
+  padding: 3rem;
+  min-height: 450px;
+}
+
+.intro-left{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  position: relative;
+  padding: 0.2rem;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.intro-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+
+
+.intro-name>:nth-child(1){
+  font-size: 2rem;
+}
+
+.intro-name>:nth-child(2) {
+  font-size: 2rem;
+  font-weight: bold;
+  color: darkblue;
+}
+
+.intro-name>:nth-child(3) {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: rgb(62, 62, 62);
+}
+
+.btn--width {
+  max-width: fit-content;
+  min-width: 6rem;
+}
+
+.intro-icons {
+  display: flex;
+}
+
+.intro-icons div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 3rem;
+  min-height: 3rem; 
+}
+
+.intro-icons div:hover {
+  cursor: pointer;
+}
+
+.intro-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0.2rem;
+  position:relative;
+  /* background-color: pink; */
+  justify-content: flex-start;
+  /* align-items: center; */
+}
+
+.intro-right>*{
+  position: absolute;
+  z-index: 1;
+  padding-right: 0.4rem;
+  width: 100%;
+  height: calc(100%-10rem);
+  max-height: calc(100% - 0.4rem);
+  object-fit: cover;
+  object-position: top;
+  
+}
+
+.intro-right img {
+  box-shadow: 5rem blue;
+}
+
+
+@media screen and (max-width: 600px) {
+  .intro {
+    display: flex;
+    padding: 3rem;
+    min-height: 250px;
+    max-height: min-content;
+  }
+  .intro-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+    padding: 0.2rem;
+    gap: 0.5rem;
+  }
+
+  .intro-right {
+    /* background-color: blue; */
+    justify-content: flex-start;
+    /* align-items: center; */
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .intro-right {
+    /* top: 5rem; */
+    /* padding-top: 2rem; */
+    /* justify-content: flex-start; */
+    /* background-color: blue; */
+
+    justify-content: center;
+    /* align-items: center; */
+  }
+}
