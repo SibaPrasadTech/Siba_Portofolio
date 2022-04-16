@@ -2,7 +2,7 @@
   "name": "siba-portofolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sibaprasadtech.github.io/Siba_Portofolio/",
+  "homepage": "https://sibaprasadtech.github.io/Siba_Portofolio",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.4",
